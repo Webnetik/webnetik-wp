@@ -44,7 +44,7 @@ function removeLogoFromAdminBar() {
 add_action('wp_before_admin_bar_render', 'removeLogoFromAdminBar');
 
 function getAdminFooterText() {
-	return 'Teampannon Kft.';
+	return 'Webnetik';
 }
 add_filter('admin_footer_text', 'getAdminFooterText', 9999);
 
